@@ -102,7 +102,7 @@ export default function Chat({ domain, onBack }) {
     if (!input.trim()) return;
 
     try {
-      const res = await fetch("http://localhost:8000/evaluate", {
+      const res = await fetch("/api/evaluate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
