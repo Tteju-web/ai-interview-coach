@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Chart from "./Chart";
+import Chart from "./chart";
 
 const questions = {
   "Full Stack Developer": [
